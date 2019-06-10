@@ -63,6 +63,7 @@ section heading. Like this:
 
 The command is used like this:
 
+    \section{About Me}
     \sectionicon{<icon>}
 
 The "icon" can be any Unicode character. The class provides several emoji-style
@@ -107,7 +108,7 @@ school name, and details about qualifications obtained at the school.
 The `\qualification` command is also available which provides additional
 formatting for the type of qualification that was obtained from the school.
 
-`employment` Environment
+### `employment` Environment
 
 Similar to the education environment, the "employment" environment provides an
 environment for listing an employer, supporting multiple jobs for the same
