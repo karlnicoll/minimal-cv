@@ -7,7 +7,7 @@
 \RequirePackage{parskip}
 
 % Don't show links.
-\RequirePackage[hidelinks]{hyperref}
+\RequirePackage[colorlinks=true,urlcolor=blue]{hyperref}
 
 % Hide page numbers.
 \pagenumbering{gobble}
@@ -16,9 +16,9 @@
 % ======
 \RequirePackage{color}
 \RequirePackage{xcolor}
-\definecolor{headerbg}{HTML}{911F03}
+\definecolor{headerbg}{HTML}{1A1A1A}
 \definecolor{headertext}{HTML}{FFFFFF}
-\definecolor{sectioncolor}{HTML}{233807}
+\definecolor{sectioncolor}{HTML}{CC5045}
 \definecolor{subsectioncolor}{HTML}{444444}
 \definecolor{textcolor}{HTML}{222222}
 
