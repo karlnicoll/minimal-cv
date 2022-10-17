@@ -1,4 +1,4 @@
-\ProvidesClass{minimal-cv}[2019-06-09 Minimal CV Class]
+\ProvidesClass{minimal-cv}[2022-10-17 Minimal CV Class]
 \NeedsTeXFormat{LaTeX2e}
 
 % Base class
@@ -48,7 +48,7 @@
 \RequirePackage{tikz}
 \newcommand{\header}[2]{
   \begin{tikzpicture}[remember picture,overlay]
-    \node [rectangle, fill=headerbg, anchor=north, minimum height=2cm, text width=\paperwidth, align=right] (box) at (current page.north){
+    \node [rectangle, left color=headerbg, right color=headerbg!70!white, anchor=north, minimum height=2cm, text width=\paperwidth, align=right] (box) at (current page.north){
       \fontsize{40pt}{80pt}\textcolor{headertext}{\hfill\firstnamefont{#1}\secondnamefont{#2}\hspace{1cm}}
     };
   \end{tikzpicture}
@@ -95,9 +95,9 @@
 \RequirePackage{tabularx}
 
 % Column types for timelines.
-\newcolumntype{f}{>{\hsize=25pt \centering\arraybackslash}X}
-\newcolumntype{h}{>{\hsize=10pt \centering\arraybackslash}X}
-\newcolumntype{t}{>{\hsize=25pt \centering\arraybackslash}X}
+\newcolumntype{f}{>{\hsize=22pt \centering\arraybackslash}X}
+\newcolumntype{h}{>{\hsize=7pt \centering\arraybackslash}X}
+\newcolumntype{t}{>{\hsize=22pt \centering\arraybackslash}X}
 \newcolumntype{v}{>{\raggedright\arraybackslash}X}
 
 % Education
